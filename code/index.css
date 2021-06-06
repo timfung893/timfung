@@ -150,7 +150,7 @@ nav a:hover, nav a:focus {
 
 .hero {
     background-color: var(--clr-light-300) ;
-    background-image: url(../timfung/img/mybikehero.jpg);
+    background-image: url(../code/img/mybikehero.jpg);
     background-blend-mode:multiply;
     background-attachment:fixed;
     background-size:cover;
@@ -175,7 +175,7 @@ padding: -1em;
     text-align: center;
 }
 .myinfo {
-    background-image: url(../timfung/img/totoro_by_elizabethcute1998-da5cmlr.png);
+    background-image: url(../code/img/totoro_by_elizabethcute1998-da5cmlr.png);
     background-size: cover;
     padding: 3em 1em;
     margin: 0 1em;
