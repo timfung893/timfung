@@ -1,0 +1,182 @@
+:root {
+    --cl-dark-300: #e5eee7;
+    --clr-light-300: #c0eeee;
+    --clr-blue-300:#FDFDFD;
+}
+
+
+/* typo */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    border: 2rem;
+    margin: 0;
+}
+.heading {
+    color: #ecf4f5;
+    border-radius: var(--clr-light-300);
+    font-size: 1em;
+    margin: 0;
+    padding: 5px;
+}
+p,
+h2 {
+    margin: 0;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+}
+p {
+    color: black;
+    justify-content: space-around;
+    text-align: left;
+
+}
+h2 {
+    color: rgb(26, 124, 177);
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header,
+section {
+    padding: 6px
+}
+.container {
+    margin-inline: auto;
+    width: min(90%, 60rem);
+}
+.text-center {
+    text-align: center;
+    margin: 0;
+}
+.bg-light {
+    color:steelblue;
+    background-color: var(--clr-light-300)
+}
+.bg-blue {
+    color: #000;
+    background-color: var(--clr-blue-300)
+
+}
+.bg-dark {
+    color: #BFE6ED;
+    background-color: var(--cl-dark-300)
+
+}
+
+
+/* Form */
+
+
+img {
+    max-width: 70%;
+    height: auto;
+    position:inherit;
+    display: inline-block;
+}
+
+.logopic {
+    border: 1px;
+    border-radius: 50px;
+    border-image:round;
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 40em) {
+    .split {
+        flex-direction: row;
+        clear:both;
+    }
+    .logo {
+        float: top;
+        size: 40px;
+        position:static;
+    }
+    
+    .split > * {
+        flex-basis: 100%;
+    }
+    .split > * + * {
+        margin: 0;
+    }
+}
+
+span {
+    color: rgb(215, 211, 241);
+    display:unset;
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+/* button */
+
+
+nav ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+    
+}
+nav li {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+    
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+nav a:hover, nav a:focus {
+    color:rgb(99, 172, 231);
+    text-decoration: none;
+}
+
+
+/* Styles */
+
+
+.hero {
+    background-color: var(--clr-light-300) ;
+    background-image: url(../code/img/mybikehero.jpg);
+    background-blend-mode:multiply;
+    background-attachment:fixed;
+    background-size:cover;
+    color: white;
+    text-align: center;
+    padding: 30vh 0;
+}
+.btn-footer, 
+.btn-header {
+margin-top: 1em;
+text-align: center;
+background-color: aliceblue;
+padding: -1em;
+}
+.btn-footer p {
+    text-align: center;
+}
+.extrainfo {
+    background-color:aliceblue;
+    text-align: center;
+    padding: 0 10em;
+    text-align: center;
+}
+.myinfo {
+    background-image: url(../code/img/totoro_by_elizabethcute1998-da5cmlr.png);
+    background-size: cover;
+    padding: 3em 1em;
+    margin: 0 1em;
+}

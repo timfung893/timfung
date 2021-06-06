@@ -1,0 +1,125 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    --clr--background: rgb(236, 236, 236);
+    --clr--body1:rgb(170, 198, 235);
+    --clr--body2: rgb(253, 204, 210);
+    --clr--body3: rgb(198, 228, 224);
+}
+
+/** typo **/
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+html {
+    font-size: 1.125rem;
+    border: 2rem;
+    margin: 0;
+    background-color: var(--clr--background);
+}
+header,section {
+    padding: 3px;
+}
+h1 {
+    position:absolute;
+    color: rgb(104, 160, 192);
+    padding: 12em 0;
+    margin: 2em -10em;
+    box-sizing: unset;
+}
+p,h2 {
+    margin: 1em;
+    padding: 1 rem;
+    color: rgb(5, 4, 4);
+}
+
+/* Form */
+
+.my-bikes {
+    text-align: center;
+}
+span {
+    color: #070101;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: unset;
+    font-size: 3rem;
+    padding: 0 5rem;
+}
+.split  {
+    display:flex;
+    flex-direction: column;
+}
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.FZ150i {
+    text-align: left;
+    background-color: var(--clr--body1);
+}
+.CBR150R {
+    text-align: left;
+    background-color: var(--clr--body2);
+}
+.Ninja300 {
+    text-align: left;
+    background-color: var(--clr--body3);
+}
+
+
+/* Button */
+
+
+nav ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .8em;
+    color: rgb(90, 32, 90);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav a:hover, nav a:focus {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+/* Styles */
+
+.hero {
+    background-color:rgb(235, 226, 226) ;
+    background-image: url(../code/img/meandfz.JPG);
+    background-blend-mode: multiply;
+    background-attachment:fixed;
+    background-size: cover;
+    padding: 55vh;
+}
+
+.btn-footer, 
+.btn-header {
+    margin-top: 1em;
+    text-align: center;
+    background-color: aliceblue;
+    padding: -1em;
+}      
+.extrainfo {
+    background-color:aliceblue;
+    background-size:cover;
+    text-align: center;
+    padding: 2em 10em;
+    text-align: center;
+}     

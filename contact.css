@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+html {
+    font-size: 1.125rem;
+    border: 2rem;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(20, 19, 19);
+}
+p {
+    margin: 0;
+    padding: 1em;
+    text-align: left;
+    color:rgb(22, 21, 19)
+}
+
+.bottom > * {
+    color: rgb(15, 31, 31);
+    text-align: center;
+}
+
+/* Button */
+
+
+nav ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .8em;
+    color: rgb(90, 32, 90);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav a:hover, nav a:focus {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+/** Form **/
+
+.main {
+    background-color: rgb(156, 201, 202);
+    padding: 20vh;
+}
+
+
+.hero {
+    background-color:rgb(235, 226, 226) ;
+    background-image: url(../code/img/contact-details-3381225_1280.webp);
+    background-blend-mode: normal;
+    background-attachment:fixed;
+    background-size:normal;
+    padding: 40vh;
+}
+
+.btn-footer, 
+.btn-header {
+    margin-top: 1em;
+    text-align: center;
+    background-color: aliceblue;
+    padding: -1em;
+}      
+.btn-footer p {
+    text-align: center;
+    color: black;
+}
+.extrainfo {
+    background-color:aliceblue;
+    color: darkgreen;
+    padding: 2em 10em;
+    text-align: center;
+}     
